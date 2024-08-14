@@ -5,15 +5,16 @@ Task received on 13/08/2024
 
 Project delivered on 14/08/2024
 
+Sample files were confidentially provided via e-mail. 
+
 ## About
 LSEG pre-interview coding challenge is a novel implementation of a prediction algorithm which is aims to determine the price of a particular stock based on subset of data chosen at random in a .csv file.
+
 The solution utilizes two main functions:
 
 • select_data: returns 10 consecutive data points starting from a random timestamp from each file processed
 
 • predict_data_LSEG: receives the input from the first function and predicts the next 3 values in the timeseries data
-
-Sample files were confidentially provided via e-mail.
 
 ## Important 
 
@@ -29,7 +30,7 @@ If, for example, we are looking at two consecutive values e.g. 104 and 105 then 
 
 • n+3 data point ~~has~~ accumulates 1/4th the difference between n+1 and n+2
 
-## Optimisation
+## Enhancements
 
 • supports more than 2 files to be processed was added by modifying the ```num_files_to_sample``` variable (default=2).
 
