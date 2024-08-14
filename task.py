@@ -45,8 +45,7 @@ def predict_data_LSEG(data, data_points_number):
     for row in data:
         price = float(row[2])
         prices.append(price)
-    print(prices)
-
+        
     def recursive_predict(prices, n, result):
      """The first two values are appended to the list according to the list of prices.
      Afterwards, we append further elements according to the previous 2 values of the list."""
@@ -75,7 +74,6 @@ def predict_data_LSEG(data, data_points_number):
     # predicted_prices = [recursive_predict(prices, i, []) for i in range(1, num_predictions + 1)]
 
     predicted_prices= predict_data_recursive(prices,data_points_number)
-    print(predicted_prices)
 
     """Using datetime to avoid erroneous incrementation over the date (e.g. 32-01-2023)
     We process the date using the last data point, expecting it to be on the 2nd column."""
