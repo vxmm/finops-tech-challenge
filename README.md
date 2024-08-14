@@ -40,7 +40,7 @@ If, for example, we are looking at two consecutive values e.g. 104 and 105 then 
 
 ## Validations
 
-The program performs validation on two disctinct levels: 
+The program performs validation on two separate levels: 
 
 ### Object level validation
 
@@ -61,8 +61,6 @@ We perform file level validation during **select_data** for the following:
 2. Ensure that the price of the stock is of ``float`` type.
 3. Verify that the available range in the data is greater or equal than the required number of points to be utilized in the prediction.
 
-We recommend saving the file with UTF-8 encoding. Any non-UTF-8 encoding will output the first error available in the program.
-
 ## How to Run
 
 1. Download the project: ```git clone https://github.com/vxmm/lseg-tech-challenge.git```
@@ -73,7 +71,7 @@ We recommend saving the file with UTF-8 encoding. Any non-UTF-8 encoding will ou
 1. Ensure Python is [configured](https://www.python.org/downloads/) to run: ```python3 --version```
 2. Allow execution role for the script: ```chmod +x task.py```
 3. Ensure script and user is allowed to read from the source files and output to the desired location, see [chown](https://linuxcommand.org/lc3_man_pages/chown1.html). 
-4. Verify that the file is in UTF-8 encoding.
+4. Verify that the file is in UTF-8 encoding. Any non-UTF-8 encoding will output the first error available in the program.
 5. If possible, please ensure that the output directory is not in the same root directory of the files.
 
 ## Further imporvements 
