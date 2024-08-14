@@ -75,7 +75,7 @@ We perform file level validation during **select_data** for the following:
 4. Verify that the file is in UTF-8 encoding. Any non-UTF-8 encoding will output the first error available in the program.
 5. If possible, please ensure that the output directory is not in the same root directory of the files.
 
-## Further imporvements 
+## Further improvements 
 
 • Implementation of other prediction algorithms.
 
