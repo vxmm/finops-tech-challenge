@@ -1,8 +1,17 @@
 # lseg-tech-challenge
-Pre-interview coding challenge for LSEG 
+Pre-interview coding challenge for LSEG. 
+
+Task received on 13/08/2024
+Project delivered on 14/08/2024
 
 ## About
-LSEG pre-interview coding challenge is a novel implementation of a prediction algorithm which is aims to determine the price of a particular stock based on subset of data chosen at random in a .csv file. 
+LSEG pre-interview coding challenge is a novel implementation of a prediction algorithm which is aims to determine the price of a particular stock based on subset of data chosen at random in a .csv file.
+The solution utilizes two main functions:
+
+• select_data: returns 10 consecutive data points starting from a random timestamp from each file processed
+• predict_data_LSEG: receives the input from the first function and predicts the next 3 values in the timeseries data
+
+Sample files were confidentially provided via e-mail.
 
 ## Important 
 
@@ -63,7 +72,9 @@ We recommend saving the file with UTF-8 encoding. Any non-UTF-8 encoding will ou
 2. Allow execution role for the script: ```chmod +x task.py```
 3. Ensure script and user is allowed to read from the source files and output to the desired location, see [chown](https://linuxcommand.org/lc3_man_pages/chown1.html). 
 4. Verify that the file is in UTF-8 encoding.
-5. If possible, please ensure that the output directory is not in the same root directory of the files. 
+5. If possible, please ensure that the output directory is not in the same root directory of the files.
+
+For 
 
 ## Further imporvements 
 
