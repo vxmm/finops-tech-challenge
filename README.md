@@ -35,7 +35,7 @@ The program performs validation on two disctinct levels:
 
 We perform object level validation during __main__ for the following: 
 
-1. Checks that the program is running with the correct number of command line arguments are passed. 
+1. Checks that the program is running with the correct number of command line arguments. 
 2. Checks if there are any files are present in the input folder specified. 
 3. If files are present, it checks if there are any files ending in .csv. 
 4. If the number of files in the folder is less than what is specified in ```num_files_to_sample``` (default = 2), we process a total number of files less than our specified value.
@@ -54,7 +54,7 @@ We recommend saving the file with UTF-8 encoding. Any non-UTF-8 encoding will ou
 
 ## How to Run
 
-1. Download the project: git clone
+1. Download the project: ```git clone https://github.com/vxmm/lseg-tech-challenge.git```
 2. Navigate to the root directory of the project with ``cd``.
 3. Run the program with the following parameters: ```python3 task.py <FILE/INPUT DIRECTORY PATH> <OUTPUT DIRECTORY PATH>```
 
