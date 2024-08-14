@@ -2,6 +2,7 @@
 Pre-interview coding challenge for LSEG. 
 
 Task received on 13/08/2024
+
 Project delivered on 14/08/2024
 
 ## About
