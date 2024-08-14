@@ -1,5 +1,5 @@
 # lseg-tech-challenge
-Pre-interview coding challenge for LSEG. 
+Pre-interview coding challenge for LSEG for the DevOps position.
 
 Task received on 13/08/2024
 
@@ -10,6 +10,7 @@ LSEG pre-interview coding challenge is a novel implementation of a prediction al
 The solution utilizes two main functions:
 
 • select_data: returns 10 consecutive data points starting from a random timestamp from each file processed
+
 • predict_data_LSEG: receives the input from the first function and predicts the next 3 values in the timeseries data
 
 Sample files were confidentially provided via e-mail.
@@ -75,14 +76,12 @@ We recommend saving the file with UTF-8 encoding. Any non-UTF-8 encoding will ou
 4. Verify that the file is in UTF-8 encoding.
 5. If possible, please ensure that the output directory is not in the same root directory of the files.
 
-For 
-
 ## Further imporvements 
 
 • Implementation of other prediction algorithms.
 
 • Load standard error messages and variables as separate files to improve readability. 
 
-• Allow user to input path in the terminal.
+• Sanitize code according to PEP8 guidelines.
 
 • Support for non-UTF8 encoding.
