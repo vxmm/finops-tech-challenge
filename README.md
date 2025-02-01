@@ -1,12 +1,8 @@
 # lseg-tech-challenge
-Pre-interview coding challenge for LSEG for the DevOps position. Sample files were confidentially provided via e-mail. 
-
-Task received on 13/08/2024
-
-Project delivered on 14/08/2024
+Pre-interview coding challenge. Sample files were confidentially provided via e-mail.
 
 ## About
-LSEG pre-interview coding challenge is a novel implementation of a prediction algorithm which is aims to determine the price of a particular stock based on subset of data chosen at random in a .csv file.
+Pre-interview coding challenge is a novel implementation of a prediction algorithm which is aims to determine the price of a particular stock based on subset of data chosen at random in a .csv file.
 
 The solution utilizes two main functions:
 
